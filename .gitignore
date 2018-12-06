@@ -4,9 +4,6 @@
 /dist
 /tmp
 /out-tsc
-/components
-/resources
-/aot
 
 # dependencies
 /node_modules
@@ -33,17 +30,11 @@
 /coverage
 /libpeerconnection.log
 npm-debug.log
+yarn-error.log
 testem.log
 /typings
-
-# themes
-/src/assets/components/themes/**/*.css
-/src/assets/components/themes/**/*.map
-
-# e2e
-/e2e/*.js
-/e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
+.editorconfig
