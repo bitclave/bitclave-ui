@@ -19,4 +19,18 @@ import { LayoutColumnComponent } from './layout-column.component';
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('offset should add class to element', () => {
+    const offset = 4;
+    component.offset = offset;
+    component.ngOnInit();
+    expect(component.elementClass.includes('col-xs-offset-' + offset)).toBe(true);
+    expect(component.elementClass.includes('col-md-offset-' + offset)).toBe(true);
+  });
+  it('size should add class to element', () => {
+    const size = 12;
+    component.size = size;
+    component.ngOnInit();
+    expect(component.elementClass.includes('col-xs-' + size)).toBe(true);
+    expect(component.elementClass.includes('col-md-' + size)).toBe(true);
+  });
 });
