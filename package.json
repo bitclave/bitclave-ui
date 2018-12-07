@@ -14,7 +14,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "packagr": "ng-packagr -p package.json"
+    "packagr": "ng-packagr -p package.json",
+    "prepare": "node_modules/.bin/tsc"
   },
   "private_comment": "change below private to false once we go public (and remove this line)",
   "private": true,
