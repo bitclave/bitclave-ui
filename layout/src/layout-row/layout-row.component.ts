@@ -11,8 +11,8 @@ export class LayoutRowComponent implements OnInit {
 
   protected _elementClass: string[] = [];
 
-  @HostBinding('style.padding-left') protected paddingLeft;
-  @HostBinding('style.padding-right') protected paddingRight;
+  @HostBinding('style.padding-left') paddingLeft;
+  @HostBinding('style.padding-right') paddingRight;
 
   @HostBinding('class')
   get elementClass(): string {

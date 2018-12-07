@@ -9,7 +9,7 @@ src
 
 # test
 e2e
-karma.conf.js
+**/karma.conf.js
 protractor.conf.js
 *.spec.d.ts
 *.spec.js
@@ -50,12 +50,12 @@ exports
 
 # config
 .angular-cli.json
-angular.json
-tsconfig.json
-tsconfig-release.json
-tsconfig-aot.json
-tslint.json
-gulpfile.js
+**/angular.json
+**/tsconfig.json
+**/tsconfig-release.json
+**/tsconfig-aot.json
+**/tslint.json
+**/gulpfile.js
 .github
 
 # System Files
