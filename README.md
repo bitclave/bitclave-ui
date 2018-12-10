@@ -36,7 +36,7 @@ find their own typos inside of class names at runtime).
 
 ## Usage
 The layout-column component supports Bootstrap's size (column span) and offset (columns to skip). Therefore, the following would add another
-row with two columns, the first starting at position 2 and extending 4 columns, and then the next column starting at position 5 and
+row with two columns, the first starting at position 3 and extending 4 columns, and then the next column starting at position 5 and
 extending to the end of the grid. (Each row's columns should add up to 12 - counting all offsets and sizes).
 
     <layout-component>
