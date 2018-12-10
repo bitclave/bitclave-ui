@@ -25,5 +25,6 @@
         "dist/layout/*"
       ]
     }
-  }
+  },
+  "files": ["layout/index.ts"]
 }
