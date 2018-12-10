@@ -13,9 +13,6 @@ protractor.conf.js
 *.spec.metadata.json
 *.spec.ngsummary.json
 
-#source
-src
-
 # dependencies
 node_modules
 
