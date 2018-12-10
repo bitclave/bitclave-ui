@@ -2,6 +2,7 @@
 /tmp
 /out-tsc
 /aot
+/dist
 
 # test
 e2e
@@ -15,7 +16,6 @@ protractor.conf.js
 
 # source
 src
-**/src
 projects
 
 # dependencies
@@ -29,7 +29,7 @@ node_modules
 *.launch
 .settings/
 *.sublime-workspace
-.editor-config
+.editorconfig
 
 # IDE - VSCode
 .vscode/*

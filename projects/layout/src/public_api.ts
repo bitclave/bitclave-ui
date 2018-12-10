@@ -2,4 +2,4 @@
  * Public API Surface of layout
  */
 
-export * from '../../../dist/layout';
+export * from './lib/layout.module';
