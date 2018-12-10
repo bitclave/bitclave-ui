@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\jared\Documents\bitclave-ui\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\jared\Documents\GitHub\bitclave-ui\src\styles.css */"./src/styles.css");
 
 
 /***/ })
