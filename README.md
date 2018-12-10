@@ -21,8 +21,8 @@ This example would be compiled down to something very close to the following htm
 
     <layout-container class="container layout-container">
 	    <layout-row class="row layout-row">
-		    <layout-column size="12" class="layout-column col-xs-12 col-md-12">
-		    </layout-column>
+            <layout-column size="12" class="layout-column col-xs-12 col-md-12">
+            </layout-column>
 	    </layout-row>
     </layout-container>
 
