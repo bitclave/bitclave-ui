@@ -19,10 +19,10 @@
     ],
     "paths": {
       "layout": [
-        "dist/layout"
+        "dist/bitclave-ui/layout"
       ],
       "layout/*": [
-        "dist/layout/*"
+        "dist/bitclave-ui/layout/*"
       ]
     }
   }
