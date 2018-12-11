@@ -274,7 +274,15 @@
      * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
      */
 
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+     */
+
     exports.LayoutModule = LayoutModule;
+    exports.ɵa = LayoutColumnComponent;
+    exports.ɵc = LayoutContainerComponent;
+    exports.ɵb = LayoutRowComponent;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 

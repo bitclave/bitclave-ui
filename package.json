@@ -1,6 +1,6 @@
 {
   "name": "@bitclave/bitclave-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,8 +18,7 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/common": "^6.1.0",
     "bootstrap-4-grid": "^2.4.1",
-    "core-js": "^2.5.4",
-    "rxjs": "~6.2.0"
+    "core-js": "^2.5.4"
   },
   "devDependencies": {
     "@angular/compiler": "^6.1.0",
