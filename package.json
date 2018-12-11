@@ -1,6 +1,6 @@
 {
   "name": "@bitclave/bitclave-ui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -52,5 +52,10 @@
     "tslint": "~5.11.0",
     "typescript": "~2.9.2",
     "zone.js": "~0.8.26"
-  }
+  },
+  "keywords": [
+    "bitclave",
+    "bitclave-ui",
+    "layout"
+  ]
 }
