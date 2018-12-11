@@ -1,6 +1,6 @@
 {
   "name": "@bitclave/bitclave-ui",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "dependencies": {
     "tslib": "^1.9.0"
   },
@@ -11,8 +11,7 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/common": "^6.1.0",
     "bootstrap-4-grid": "^2.4.1",
-    "core-js": "^2.5.4",
-    "rxjs": "~6.2.0"
+    "core-js": "^2.5.4"
   },
   "devDependencies": {
     "@angular/compiler": "^6.1.0",
@@ -46,6 +45,11 @@
     "typescript": "~2.9.2",
     "zone.js": "~0.8.26"
   },
+  "keywords": [
+    "bitclave",
+    "bitclave-ui",
+    "layout"
+  ],
   "main": "bundles/bitclave-bitclave-ui.umd.js",
   "module": "fesm5/bitclave-bitclave-ui.js",
   "es2015": "fesm2015/bitclave-bitclave-ui.js",

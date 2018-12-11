@@ -230,6 +230,11 @@ var LayoutModule = /** @class */ (function () {
  * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 
-export { LayoutModule };
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+
+export { LayoutModule, LayoutColumnComponent as ɵa, LayoutContainerComponent as ɵc, LayoutRowComponent as ɵb };
 
 //# sourceMappingURL=bitclave-bitclave-ui.js.map
