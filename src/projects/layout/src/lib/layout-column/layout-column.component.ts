@@ -7,6 +7,9 @@ import { Component, OnInit, Input, HostBinding } from '@angular/core';
 })
 export class LayoutColumnComponent implements OnInit {
   @Input() size: number;
+  @Input() sm: number;
+  @Input() md: number;
+  @Input() lg: number;
   @Input() offset: number;
   @Input() class = '';
 
@@ -19,7 +22,9 @@ export class LayoutColumnComponent implements OnInit {
   ngOnInit() {
     this._elementClass.push('layout-column');
     this._elementClass.push('col-xs-' + this.size);
-    this._elementClass.push('col-md-' + this.size);
+    this._elementClass.push('col-md-' + (this.md || this.size));
+    this.lg && this._elementClass.push('col-lg-' + this.lg);
+    this.sm && this._elementClass.push('col-sm-' + this.sm);
     if (this.offset > 0) {
       this._elementClass.push('col-xs-offset-' + this.offset);
       this._elementClass.push('col-md-offset-' + this.offset);
