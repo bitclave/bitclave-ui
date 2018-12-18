@@ -59,7 +59,9 @@
                 var e_1, _a;
                 this._elementClass.push('layout-column');
                 this._elementClass.push('col-xs-' + this.size);
-                this._elementClass.push('col-md-' + this.size);
+                this._elementClass.push('col-md-' + (this.md || this.size));
+                this.lg && this._elementClass.push('col-lg-' + this.lg);
+                this.sm && this._elementClass.push('col-sm-' + this.sm);
                 if (this.offset > 0) {
                     this._elementClass.push('col-xs-offset-' + this.offset);
                     this._elementClass.push('col-md-offset-' + this.offset);
@@ -94,6 +96,9 @@
         ];
         LayoutColumnComponent.propDecorators = {
             size: [{ type: core.Input }],
+            sm: [{ type: core.Input }],
+            md: [{ type: core.Input }],
+            lg: [{ type: core.Input }],
             offset: [{ type: core.Input }],
             class: [{ type: core.Input }],
             elementClass: [{ type: core.HostBinding, args: ['class',] }]

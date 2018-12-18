@@ -1,12 +1,14 @@
 {
   "name": "@bitclave/bitclave-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test --source-map --code-coverage",
+    "coverage": "ng test --source-map --code-coverage --watch=false --progress=false",
     "lint": "ng lint",
+    "tslint" : "tslint -c tslint.json 'src/**/*.ts'",
     "e2e": "ng e2e",
     "publish": "ng build && npm publish dist/bitclave-ui"
   },
